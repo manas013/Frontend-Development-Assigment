@@ -648,7 +648,7 @@ const Mainpage = () => {
                                         LP
                                       </Text>
                                     </div>
-                                    <div className="absolute bg-blue-600 border border-solid border-white-A700 flex flex-col md:h-auto h-full inset-y-[0] items-end justify-center my-auto px-1.5 py-[5px] right-[0] rounded-[50%] w-[30px]">
+                                    <div id='text_2' className="absolute bg-blue-600 border border-solid border-white-A700 flex flex-col md:h-auto h-full inset-y-[0] items-end justify-center my-auto px-1.5 py-[5px] right-[0] rounded-[50%] w-[30px]">
                                       <Text
                                         className="text-center text-sm text-white-A700"
                                         size="txtInterBold14"
@@ -660,6 +660,7 @@ const Mainpage = () => {
                                   <Text
                                     className="absolute bg-pink-400 border border-solid border-white-A700 flex h-full inset-y-[0] items-center justify-center my-auto right-[-1%] rounded-[50%] text-center text-sm text-white-A700 w-[30px]"
                                     size="txtInterBold14"
+                                    id='text_3'
                                   >
                                     LP
                                   </Text>

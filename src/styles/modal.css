@@ -119,18 +119,30 @@ color: #1C4980;
             }
             .input_box{
                 font-size: 11px;
+                height: 30px;
+
             }
             .dropdown_first_section{
                 font-size: 12px;
             }
             .dropdown select{
                 font-size: 11px;
+                padding: 0px 7px;
+                height: 30px;
             }
             .skill_section h2{
                 font-size: 12px;
             }
             .selectiontext{
                 font-size: 11px;
+            }
+            .footer_button {
+                border-radius: 4px !important;
+                padding: 6px 144px !important;
+                font-size: medium !important;
+            }
+            .main_popup{
+                margin-bottom: 0px;
             }
 
 
@@ -229,13 +241,43 @@ color: #1C4980;
         padding: 20px 0px;
     }
     .main_popup{
-        margin-bottom: 10px;
+        margin-bottom: 0px;
         padding: 0px 10px;
     }
         .middle_div_section {
             padding: 0px 10px;
 
         }
+        .footer_button{
+            border-radius: 4px !important;
+    padding: 3px 111px !important;
+    font-size: small !important;
+        }
+        .input_box {
+            height: 24px;
+        }
+        .dropdown select {
+            height: 24px;
+            padding: 0px 7px;
+        }
             
+
+  }
+  @media only screen and (max-width: 366px) {
+    .footer_button {
+        border-radius: 4px !important;
+        padding: 3px 111px !important;
+        font-size: small !important;
+    }
+    .input_box {
+        height: 24px;
+    }
+    .dropdown select {
+        height: 24px;
+        padding: 0px 7px;
+    }
+    .main_popup {
+        margin-bottom: 10px;
+    }
 
   }
