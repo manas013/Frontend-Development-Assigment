@@ -1,0 +1,145 @@
+.navbar{
+    display: block !important;
+}
+.nav_new_bar{
+    display: none !important;
+}
+.accordians_hide{
+    display: block !important; 
+}
+.accordians_show{
+    display: none !important;
+}
+.assigment_overview_show{
+    display: none !important;
+}
+.assigment_overview_hidden{
+    display: block !important;
+}
+@media only screen and (max-width: 1043px) {
+    .navbar{
+        display: none !important;
+    }
+    .nav_new_bar{
+        display: block !important;
+    }
+    .accordians_hide{
+        display: none !important; 
+    }
+    .accordians_show{
+        display: block !important;
+    }
+    #root{
+        background-color: #fff;
+    }
+  }
+  .header_navbar{
+    display: flex;
+    justify-content: space-between;
+    gap: 2.5rem;
+    align-items: center;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+  }
+  .nav_new_bar{
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    height: auto;
+
+  }
+  .accordians_show{
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    height: auto;
+    background-color: #fff;
+  }
+  .accodians_content{
+    display: flex;
+    justify-content: space-between;
+    gap: 2.5rem;
+    align-items: center;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+  }
+  #left{
+    font-family: 'Inter';
+font-size: 16px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0em;
+color: #0073E6;
+text-decoration: underline;
+text-decoration-color:#0073E6 ;
+text-decoration-thickness: 3px;
+margin-top: 10px;
+
+  }
+  #right{
+    font-family: 'Inter';
+font-size: 16px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0em;
+color: #3E6493;
+margin-top: 10px;
+  }
+
+  .assigment_overview_show{
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .assigment_overview_content{
+    display: flex;
+    justify-content: space-between;
+    gap: 2.5rem;
+    align-items: center;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+  }
+  .assigment_heading h1{
+    font-family: 'Inter';
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0em;
+color: #3E6493;
+
+  }
+
+  @media only screen and (max-width: 548px) {
+    .assigment_overview_show{
+        display: block !important;
+    }
+    .assigment_overview_hidden{
+        display: none !important;
+    }
+  }
+  .MuiTypography-root{
+    color: #1C4980;
+    font-family: 'Inter';
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0px;
+  }
+  .MuiButtonBase-root-MuiListItemButton-root :hover{
+    color: #0073E6;
+  }
